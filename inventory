@@ -1,0 +1,7 @@
+[localhost]
+localhost ansible_connection=local
+[test1]
+192.168.92.[129:130] ansible_ssh_user=jahan ansible_port=22
+
+[test2]
+192.168.92.130 ansible_ssh_user=jahan ansible_port=22
